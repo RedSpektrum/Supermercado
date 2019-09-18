@@ -1,0 +1,504 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ClassDiagram name="PECL3">
+  <ClassDiagramComponents>
+    <Class name="Arrays" package="pecl3" visibility="public" xPosition="20.0" yPosition="20.0">
+      <Fields>
+        <Field name="acceso" type="ArrayList&lt;TareaCompradora&gt;" visibility="private"/>
+        <Field name="colaCajas" type="ArrayList&lt;TareaCompradora&gt;" visibility="private"/>
+        <Field name="colaCarni" type="ArrayList&lt;TareaCompradora&gt;" visibility="private"/>
+        <Field name="colaPesc" type="ArrayList&lt;TareaCompradora&gt;" visibility="private"/>
+        <Field name="genteEnEstantes" type="int" visibility="private"/>
+        <Field name="caja1" type="TareaCompradora" visibility="private"/>
+        <Field name="panelAcceso" type="JTextField" visibility="private"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public">
+          <Argument type="JTextField" name="pAcceso"/>
+          <Argument type="JTextField" name="pCCar"/>
+          <Argument type="JTextField" name="pCar"/>
+          <Argument type="JTextField" name="pCPes"/>
+          <Argument type="JTextField" name="pPes"/>
+          <Argument type="JTextField" name="pCCaj"/>
+          <Argument type="JTextField" name="pC1"/>
+          <Argument type="JTextField" name="pC2"/>
+          <Argument type="JTextField" name="pEst"/>
+        </Constructor>
+      </Constructors>
+      <Methods>
+        <Method name="colaAcceso" returnType="void" visibility="public" isSynchronized="true">
+          <Argument type="TareaCompradora" name="cliente"/>
+        </Method>
+        <Method name="entrar" returnType="void" visibility="public" isSynchronized="true">
+          <Argument type="TareaCompradora" name="cliente"/>
+        </Method>
+        <Method name="imprimirAcceso" returnType="void" visibility="public"/>
+        <Method name="colaPesc" returnType="void" visibility="public" isSynchronized="true">
+          <Argument type="TareaCompradora" name="cliente"/>
+        </Method>
+        <Method name="abandonarColaPes" returnType="void" visibility="public" isSynchronized="true">
+          <Argument type="TareaCompradora" name="cliente"/>
+        </Method>
+        <Method name="atenderPescaderia" returnType="void" visibility="public" isSynchronized="true">
+          <Argument type="TareaCompradora" name="cliente"/>
+        </Method>
+        <Method name="abandonarPescaderia" returnType="void" visibility="public" isSynchronized="true">
+          <Argument type="TareaCompradora" name="cliente"/>
+        </Method>
+        <Method name="imprimirCPescaderia" returnType="void" visibility="public"/>
+        <Method name="imprimirPescadero" returnType="void" visibility="public"/>
+        <Method name="colaCarn" returnType="void" visibility="public" isSynchronized="true">
+          <Argument type="TareaCompradora" name="cliente"/>
+        </Method>
+        <Method name="abandonarColaCar" returnType="void" visibility="public" isSynchronized="true">
+          <Argument type="TareaCompradora" name="cliente"/>
+        </Method>
+        <Method name="atenderCarniceria" returnType="void" visibility="public" isSynchronized="true">
+          <Argument type="TareaCompradora" name="cliente"/>
+        </Method>
+        <Method name="abandonarCarniceria" returnType="void" visibility="public" isSynchronized="true">
+          <Argument type="TareaCompradora" name="cliente"/>
+        </Method>
+        <Method name="imprimirCCarniceria" returnType="void" visibility="public"/>
+        <Method name="imprimirCarnicero" returnType="void" visibility="public"/>
+        <Method name="colaCajas" returnType="void" visibility="public" isSynchronized="true">
+          <Argument type="TareaCompradora" name="cliente"/>
+        </Method>
+        <Method name="abandonarColaCajas" returnType="void" visibility="public" isSynchronized="true">
+          <Argument type="TareaCompradora" name="cliente"/>
+        </Method>
+        <Method name="Caja1" returnType="void" visibility="public" isSynchronized="true">
+          <Argument type="TareaCompradora" name="cliente"/>
+        </Method>
+        <Method name="dejarCaja1" returnType="void" visibility="public" isSynchronized="true">
+          <Argument type="TareaCompradora" name="cliente"/>
+        </Method>
+        <Method name="Caja2" returnType="void" visibility="public" isSynchronized="true">
+          <Argument type="TareaCompradora" name="cliente"/>
+        </Method>
+        <Method name="dejarCaja2" returnType="void" visibility="public" isSynchronized="true">
+          <Argument type="TareaCompradora" name="cliente"/>
+        </Method>
+        <Method name="imprimirCCajas" returnType="void" visibility="public"/>
+        <Method name="imprimirCaja1" returnType="void" visibility="public"/>
+        <Method name="imprimirCaja2" returnType="void" visibility="public"/>
+        <Method name="accederAEstantes" returnType="void" visibility="public" isSynchronized="true"/>
+        <Method name="abandonarEstantes" returnType="void" visibility="public" isSynchronized="true"/>
+        <Method name="imprimirEstantes" returnType="void" visibility="public"/>
+        <Method name="limpiar" returnType="void" visibility="public"/>
+      </Methods>
+    </Class>
+    <Class name="Cajas" package="pecl3" visibility="public" xPosition="1431.0" yPosition="53.0">
+      <Fields>
+        <Field name="log" type="Log" visibility="private"/>
+        <Field name="nCajera" type="AtomicInteger" visibility="private"/>
+        <Field name="arrays" type="Arrays" visibility="private"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public">
+          <Argument type="Log" name="log"/>
+          <Argument type="Arrays" name="arrays"/>
+        </Constructor>
+      </Constructors>
+      <Methods>
+        <Method name="cobrarCliente" returnType="void" visibility="public">
+          <Argument type="TareaCompradora" name="cliente"/>
+        </Method>
+      </Methods>
+    </Class>
+    <Class name="Carniceria" package="pecl3" visibility="public" xPosition="2115.0" yPosition="83.0">
+      <Fields>
+        <Field name="cliente" type="TareaCompradora" visibility="private"/>
+        <Field name="log" type="Log" visibility="private"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public">
+          <Argument type="Log" name="log"/>
+        </Constructor>
+      </Constructors>
+      <Methods>
+        <Method name="atenderCliente" returnType="void" visibility="public">
+          <Argument type="TareaCompradora" name="cliente"/>
+        </Method>
+        <Method name="finalizarCarniceria" returnType="void" visibility="public"/>
+      </Methods>
+    </Class>
+    <Class name="Estantes" package="pecl3" visibility="public" xPosition="1908.0" yPosition="1068.0">
+      <Fields>
+        <Field name="log" type="Log" visibility="private"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public">
+          <Argument type="Log" name="log"/>
+        </Constructor>
+      </Constructors>
+      <Methods>
+        <Method name="AccederAEstantes" returnType="void" visibility="public">
+          <Argument type="TareaCompradora" name="cliente"/>
+        </Method>
+      </Methods>
+    </Class>
+    <Class name="Log" package="pecl3" visibility="public" xPosition="2013.0" yPosition="591.0">
+      <Fields>
+        <Field name="cola" type="LinkedBlockingQueue&lt;String&gt;" visibility="private"/>
+        <Field name="semaforo" type="Semaphore" visibility="private"/>
+        <Field name="archivo" type="File" visibility="private"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public"/>
+      </Constructors>
+      <Methods>
+        <Method name="run" returnType="void" visibility="public"/>
+        <Method name="escribirTexto" returnType="void" visibility="public">
+          <Argument type="String" name="texto"/>
+        </Method>
+        <Method name="anadirACola" returnType="void" visibility="public">
+          <Argument type="String" name="texto"/>
+        </Method>
+      </Methods>
+    </Class>
+    <Class name="ModuloControl" package="pecl3" visibility="public" xPosition="2.0" yPosition="889.0">
+      <Fields>
+        <Field name="cliente" type="TareaCliente" visibility="private"/>
+        <Field name="jButton1" type="javax.swing.JButton" visibility="private"/>
+        <Field name="jButton2" type="javax.swing.JButton" visibility="private"/>
+        <Field name="jButton3" type="javax.swing.JButton" visibility="private"/>
+        <Field name="jButton4" type="javax.swing.JButton" visibility="private"/>
+        <Field name="jButton5" type="javax.swing.JButton" visibility="private"/>
+        <Field name="jButton6" type="javax.swing.JButton" visibility="private"/>
+        <Field name="jLabel1" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jLabel2" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jLabel3" type="javax.swing.JLabel" visibility="private"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public"/>
+      </Constructors>
+      <Methods>
+        <Method name="initComponents" returnType="// &lt;editor-fold defaultstate=&quot;collapsed&quot; desc=&quot;Generated Code&quot;&gt;//GEN-BEGIN:initComponents void" visibility="private"/>
+        <Method name="jButton1ActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+        <Method name="jButton2ActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+        <Method name="jButton3ActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+        <Method name="jButton4ActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+        <Method name="jButton5ActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+        <Method name="jButton6ActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+        <Method name="main" returnType="void" visibility="public" isStatic="true">
+          <Argument type="String" name="args"/>
+        </Method>
+      </Methods>
+    </Class>
+    <Class name="PECL3" package="pecl3" visibility="public" xPosition="1820.0" yPosition="20.0">
+      <Fields/>
+      <Constructors/>
+      <Methods>
+        <Method name="main" returnType="void" visibility="public" isStatic="true">
+          <Argument type="String[]" name="args"/>
+        </Method>
+      </Methods>
+    </Class>
+    <Class name="Pescaderia" package="pecl3" visibility="public" xPosition="2589.0" yPosition="198.0">
+      <Fields>
+        <Field name="log" type="Log" visibility="private"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public">
+          <Argument type="Log" name="log"/>
+        </Constructor>
+      </Constructors>
+      <Methods>
+        <Method name="atenderCliente" returnType="void" visibility="public">
+          <Argument type="TareaCompradora" name="cliente"/>
+        </Method>
+      </Methods>
+    </Class>
+    <Class name="Supermercado" package="pecl3" visibility="public" xPosition="1121.0" yPosition="762.0">
+      <Fields>
+        <Field name="pescaderia" type="Pescaderia" visibility="private"/>
+        <Field name="carniceria" type="Carniceria" visibility="private"/>
+        <Field name="estantes" type="Estantes" visibility="private"/>
+        <Field name="cajas" type="Cajas" visibility="private"/>
+        <Field name="arrays" type="Arrays" visibility="private"/>
+        <Field name="aforo" type="int" visibility="private"/>
+        <Field name="cantidadClientes" type="AtomicInteger" visibility="private"/>
+        <Field name="forzado" type="boolean" visibility="private"/>
+        <Field name="colaAcceso" type="LinkedBlockingQueue&lt;TareaCompradora&gt;" visibility="private"/>
+        <Field name="colaSuper" type="LinkedBlockingQueue&lt;TareaCompradora&gt;" visibility="private"/>
+        <Field name="colaPescaderia" type="LinkedBlockingQueue&lt;TareaCompradora&gt;" visibility="private"/>
+        <Field name="colaCarniceria" type="LinkedBlockingQueue&lt;TareaCompradora&gt;" visibility="private"/>
+        <Field name="colaCajas" type="LinkedBlockingQueue&lt;TareaCompradora&gt;" visibility="private"/>
+        <Field name="colaSalida" type="LinkedBlockingQueue&lt;TareaCompradora&gt;" visibility="private"/>
+        <Field name="fuera" type="LinkedBlockingQueue" visibility="private"/>
+        <Field name="semaforo" type="Semaphore" visibility="private"/>
+        <Field name="entradaPes" type="Semaphore" visibility="private"/>
+        <Field name="entradaCar" type="Semaphore" visibility="private"/>
+        <Field name="entradaCaj" type="Semaphore" visibility="private"/>
+        <Field name="pararCarnicero" type="boolean" visibility="private"/>
+        <Field name="pausaCarnicero" type="Semaphore" visibility="private"/>
+        <Field name="log" type="Log" visibility="private"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public">
+          <Argument type="Log" name="log"/>
+          <Argument type="Arrays" name="arrays"/>
+        </Constructor>
+      </Constructors>
+      <Methods>
+        <Method name="irDeCompras" returnType="void" visibility="public">
+          <Argument type="TareaCompradora" name="cliente"/>
+        </Method>
+        <Method name="entrar" returnType="void" visibility="public">
+          <Argument type="TareaCompradora" name="cliente"/>
+        </Method>
+        <Method name="redirigir" returnType="void" visibility="public"/>
+        <Method name="accederAPescaderia" returnType="void" visibility="public"/>
+        <Method name="accederACarniceria" returnType="void" visibility="public"/>
+        <Method name="accederAEstantes" returnType="void" visibility="public">
+          <Argument type="TareaCompradora" name="cliente"/>
+        </Method>
+        <Method name="accederACajas" returnType="void" visibility="public"/>
+        <Method name="abandonar" returnType="void" visibility="public"/>
+        <Method name="pararPescadero" returnType="void" visibility="public"/>
+        <Method name="continuarPescadero" returnType="void" visibility="public"/>
+        <Method name="pararCarnicero" returnType="void" visibility="public"/>
+        <Method name="continuarCarnicero" returnType="void" visibility="public"/>
+        <Method name="pararCajas" returnType="void" visibility="public"/>
+        <Method name="continuarCajas" returnType="void" visibility="public"/>
+        <Method name="pararEstantes" returnType="void" visibility="public"/>
+        <Method name="continuarEstantes" returnType="void" visibility="public"/>
+        <Method name="parar" returnType="void" visibility="public"/>
+        <Method name="continuar" returnType="void" visibility="public"/>
+        <Method name="setTiempoCompras" returnType="void" visibility="public">
+          <Argument type="int[]" name="t"/>
+          <Argument type="String" name="nombre"/>
+        </Method>
+        <Method name="finalizar" returnType="void" visibility="public"/>
+        <Method name="expulsar" returnType="void" visibility="public"/>
+      </Methods>
+    </Class>
+    <Class name="TareaCliente" package="pecl3" visibility="public" xPosition="102.0" yPosition="1465.0">
+      <Fields>
+        <Field name="modCon" type="ModuloControl" visibility="private"/>
+        <Field name="cliente" type="Socket" visibility="private"/>
+        <Field name="salida" type="DataOutputStream" visibility="private"/>
+        <Field name="entrada" type="DataInputStream" visibility="private"/>
+        <Field name="mensaje" type="int" visibility="private"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public">
+          <Argument type="int" name="msg"/>
+        </Constructor>
+      </Constructors>
+      <Methods>
+        <Method name="run" returnType="void" visibility="public"/>
+      </Methods>
+    </Class>
+    <Class name="TareaCompradora" package="pecl3" visibility="public" xPosition="1110.0" yPosition="250.0">
+      <Fields>
+        <Field name="ide" type="String" visibility="private"/>
+        <Field name="supermercado" type="Supermercado" visibility="private"/>
+        <Field name="zona" type="int" visibility="private"/>
+        <Field name="tiempo" type="int" visibility="private"/>
+        <Field name="tiempoDentro" type="int" visibility="private"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public">
+          <Argument type="int" name="id"/>
+          <Argument type="Supermercado" name="su"/>
+        </Constructor>
+        <Constructor visibility="public"/>
+      </Constructors>
+      <Methods>
+        <Method name="run" returnType="void" visibility="public"/>
+        <Method name="getIdent" returnType="String" visibility="public"/>
+        <Method name="getZona" returnType="int" visibility="public"/>
+        <Method name="dentro" returnType="void" visibility="public"/>
+      </Methods>
+    </Class>
+    <Class name="TareaServidor" package="pecl3" visibility="public" xPosition="639.0" yPosition="1508.0">
+      <Fields>
+        <Field name="msg" type="int" visibility="private"/>
+        <Field name="servidor" type="ServerSocket" visibility="private"/>
+        <Field name="conexion" type="Socket" visibility="private"/>
+        <Field name="salida" type="DataOutputStream" visibility="private"/>
+        <Field name="entrada" type="DataInputStream" visibility="private"/>
+        <Field name="mercado" type="Supermercado" visibility="private"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public">
+          <Argument type="int" name="puerto"/>
+          <Argument type="Supermercado" name="mercado"/>
+        </Constructor>
+      </Constructors>
+      <Methods>
+        <Method name="run" returnType="void" visibility="public"/>
+      </Methods>
+    </Class>
+    <Class name="TareaTrabajador" package="pecl3" visibility="public" xPosition="2974.0" yPosition="994.0">
+      <Fields>
+        <Field name="tiempominimo" type="int" visibility="private"/>
+        <Field name="tiempomaximo" type="int" visibility="private"/>
+        <Field name="nombre" type="String" visibility="private"/>
+        <Field name="barrera" type="CyclicBarrier" visibility="private"/>
+        <Field name="pausa" type="Semaphore" visibility="private"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public">
+          <Argument type="int" name="tiempominimo"/>
+          <Argument type="int" name="tiempomaximo"/>
+          <Argument type="String" name="nombre"/>
+          <Argument type="CyclicBarrier" name="barrera"/>
+        </Constructor>
+      </Constructors>
+      <Methods>
+        <Method name="run" returnType="void" visibility="public"/>
+        <Method name="getNombre" returnType="String" visibility="public"/>
+      </Methods>
+    </Class>
+    <Class name="Visual" package="pecl3" visibility="public" xPosition="2164.0" yPosition="1310.0">
+      <Fields>
+        <Field name="arrays" type="Arrays" visibility="private"/>
+        <Field name="log" type="Log" visibility="private"/>
+        <Field name="mercado" type="Supermercado" visibility="private"/>
+        <Field name="servidor" type="TareaServidor" visibility="private"/>
+        <Field name="exe" type="ExecutorService" visibility="private"/>
+        <Field name="fin" type="boolean" visibility="private"/>
+        <Field name="Acceso" type="javax.swing.JTextField" visibility="private"/>
+        <Field name="Caja1" type="javax.swing.JTextField" visibility="private"/>
+        <Field name="Caja2" type="javax.swing.JTextField" visibility="private"/>
+        <Field name="Cajas" type="javax.swing.JTextField" visibility="private"/>
+        <Field name="Carniceria" type="javax.swing.JTextField" visibility="private"/>
+        <Field name="Carnicero" type="javax.swing.JTextField" visibility="private"/>
+        <Field name="Continuar" type="javax.swing.JButton" visibility="private"/>
+        <Field name="Estantes" type="javax.swing.JTextField" visibility="private"/>
+        <Field name="Finalizar" type="javax.swing.JButton" visibility="private"/>
+        <Field name="Pausa" type="javax.swing.JButton" visibility="private"/>
+        <Field name="Pescaderia" type="javax.swing.JTextField" visibility="private"/>
+        <Field name="Pescadero" type="javax.swing.JTextField" visibility="private"/>
+        <Field name="jLabel1" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jLabel2" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jLabel3" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jLabel4" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jLabel5" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jLabel6" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jLabel7" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jLabel8" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jLabel9" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jTextField4" type="javax.swing.JTextField" visibility="private"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public"/>
+      </Constructors>
+      <Methods>
+        <Method name="GenerarClientes" returnType="void" visibility="private">
+          <Argument type="int" name="a"/>
+        </Method>
+        <Method name="initComponents" returnType="// &lt;editor-fold defaultstate=&quot;collapsed&quot; desc=&quot;Generated Code&quot;&gt;//GEN-BEGIN:initComponents void" visibility="private"/>
+        <Method name="FinalizarActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+        <Method name="PausaActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+        <Method name="AccesoActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+        <Method name="Caja2ActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+        <Method name="ContinuarActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+        <Method name="main" returnType="void" visibility="public" isStatic="true">
+          <Argument type="String" name="args"/>
+        </Method>
+      </Methods>
+    </Class>
+    <Class name="Zona" package="pecl3" visibility="public" isAbstract="true" xPosition="2466.0" yPosition="638.0">
+      <Fields>
+        <Field name="nTrabajadores" type="int" visibility="private"/>
+        <Field name="ex" type="ExecutorService" visibility="protected"/>
+        <Field name="servicio" type="int" visibility="private"/>
+        <Field name="trabajador" type="TareaTrabajador" visibility="protected"/>
+        <Field name="t_minimo" type="int" visibility="private"/>
+        <Field name="t_maximo" type="int" visibility="private"/>
+        <Field name="nombre" type="String" visibility="private"/>
+        <Field name="espera" type="CyclicBarrier" visibility="private"/>
+        <Field name="espera2" type="CyclicBarrier" visibility="private"/>
+        <Field name="tiempo" type="AtomicInteger" visibility="private"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public">
+          <Argument type="int" name="ntrab"/>
+          <Argument type="int" name="servicio"/>
+          <Argument type="int" name="t_min"/>
+          <Argument type="int" name="t_max"/>
+          <Argument type="String" name="nombre"/>
+        </Constructor>
+      </Constructors>
+      <Methods>
+        <Method name="lanzarTrabajador" returnType="String" visibility="public">
+          <Argument type="int" name="i"/>
+        </Method>
+        <Method name="esperar" returnType="int" visibility="protected">
+          <Argument type="int" name="i"/>
+        </Method>
+        <Method name="finalizar" returnType="void" visibility="public"/>
+      </Methods>
+    </Class>
+  </ClassDiagramComponents>
+  <ClassDiagramRelations>
+    <HasRelation name="acceso" source="pecl3.Arrays" target="pecl3.TareaCompradora" type="Aggregation" sourceCardinality="1..1" targetCardinality="0..*" collectionType="ArrayList&lt;TareaCompradora&gt;"/>
+    <HasRelation name="colaSuper" source="pecl3.Supermercado" target="pecl3.TareaCompradora" type="Aggregation" sourceCardinality="1..1" targetCardinality="0..*" collectionType="LinkedBlockingQueue&lt;TareaCompradora&gt;"/>
+    <HasRelation name="log" source="pecl3.Cajas" target="pecl3.Log" type="Aggregation" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <HasRelation name="colaSalida" source="pecl3.Supermercado" target="pecl3.TareaCompradora" type="Aggregation" sourceCardinality="1..1" targetCardinality="0..*" collectionType="LinkedBlockingQueue&lt;TareaCompradora&gt;"/>
+    <HasRelation name="servidor" source="pecl3.Visual" target="pecl3.TareaServidor" type="Aggregation" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <HasRelation name="arrays" source="pecl3.Supermercado" target="pecl3.Arrays" type="Aggregation" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <HasRelation name="log" source="pecl3.Estantes" target="pecl3.Log" type="Aggregation" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <UseRelation source="pecl3.Carniceria" target="pecl3.TareaCompradora" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <HasRelation name="log" source="pecl3.Pescaderia" target="pecl3.Log" type="Aggregation" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <UseRelation source="pecl3.Supermercado" target="pecl3.TareaCompradora" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <HasRelation name="pescaderia" source="pecl3.Supermercado" target="pecl3.Pescaderia" type="Aggregation" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <HasRelation name="trabajador" source="pecl3.Zona" target="pecl3.TareaTrabajador" type="Aggregation" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <HasRelation name="estantes" source="pecl3.Supermercado" target="pecl3.Estantes" type="Aggregation" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <HasRelation name="cliente" source="pecl3.Carniceria" target="pecl3.TareaCompradora" type="Aggregation" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <UseRelation source="pecl3.Estantes" target="pecl3.TareaCompradora" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <IsRelation name="is" source="pecl3.Estantes" target="pecl3.Zona"/>
+    <HasRelation name="arrays" source="pecl3.Visual" target="pecl3.Arrays" type="Aggregation" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <HasRelation name="carniceria" source="pecl3.Supermercado" target="pecl3.Carniceria" type="Aggregation" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <HasRelation name="supermercado" source="pecl3.TareaCompradora" target="pecl3.Supermercado" type="Aggregation" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <HasRelation name="mercado" source="pecl3.Visual" target="pecl3.Supermercado" type="Aggregation" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <HasRelation name="log" source="pecl3.Carniceria" target="pecl3.Log" type="Aggregation" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <HasRelation name="log" source="pecl3.Visual" target="pecl3.Log" type="Aggregation" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <HasRelation name="colaCarniceria" source="pecl3.Supermercado" target="pecl3.TareaCompradora" type="Aggregation" sourceCardinality="1..1" targetCardinality="0..*" collectionType="LinkedBlockingQueue&lt;TareaCompradora&gt;"/>
+    <HasRelation name="cliente" source="pecl3.ModuloControl" target="pecl3.TareaCliente" type="Aggregation" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <HasRelation name="arrays" source="pecl3.Cajas" target="pecl3.Arrays" type="Aggregation" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <HasRelation name="modCon" source="pecl3.TareaCliente" target="pecl3.ModuloControl" type="Aggregation" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <UseRelation source="pecl3.Cajas" target="pecl3.TareaCompradora" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <UseRelation source="pecl3.Pescaderia" target="pecl3.TareaCompradora" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <IsRelation name="is" source="pecl3.Carniceria" target="pecl3.Zona"/>
+    <HasRelation name="caja1" source="pecl3.Arrays" target="pecl3.TareaCompradora" type="Aggregation" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <HasRelation name="log" source="pecl3.Supermercado" target="pecl3.Log" type="Aggregation" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <HasRelation name="colaPesc" source="pecl3.Arrays" target="pecl3.TareaCompradora" type="Aggregation" sourceCardinality="1..1" targetCardinality="0..*" collectionType="ArrayList&lt;TareaCompradora&gt;"/>
+    <HasRelation name="mercado" source="pecl3.TareaServidor" target="pecl3.Supermercado" type="Aggregation" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <HasRelation name="colaCarni" source="pecl3.Arrays" target="pecl3.TareaCompradora" type="Aggregation" sourceCardinality="1..1" targetCardinality="0..*" collectionType="ArrayList&lt;TareaCompradora&gt;"/>
+    <IsRelation name="is" source="pecl3.Cajas" target="pecl3.Zona"/>
+    <IsRelation name="is" source="pecl3.Pescaderia" target="pecl3.Zona"/>
+    <HasRelation name="colaAcceso" source="pecl3.Supermercado" target="pecl3.TareaCompradora" type="Aggregation" sourceCardinality="1..1" targetCardinality="0..*" collectionType="LinkedBlockingQueue&lt;TareaCompradora&gt;"/>
+    <HasRelation name="cajas" source="pecl3.Supermercado" target="pecl3.Cajas" type="Aggregation" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <HasRelation name="colaCajas" source="pecl3.Arrays" target="pecl3.TareaCompradora" type="Aggregation" sourceCardinality="1..1" targetCardinality="0..*" collectionType="ArrayList&lt;TareaCompradora&gt;"/>
+    <HasRelation name="colaCajas" source="pecl3.Supermercado" target="pecl3.TareaCompradora" type="Aggregation" sourceCardinality="1..1" targetCardinality="0..*" collectionType="LinkedBlockingQueue&lt;TareaCompradora&gt;"/>
+    <HasRelation name="colaPescaderia" source="pecl3.Supermercado" target="pecl3.TareaCompradora" type="Aggregation" sourceCardinality="1..1" targetCardinality="0..*" collectionType="LinkedBlockingQueue&lt;TareaCompradora&gt;"/>
+    <UseRelation source="pecl3.Arrays" target="pecl3.TareaCompradora" sourceCardinality="1..1" targetCardinality="1..1"/>
+  </ClassDiagramRelations>
+</ClassDiagram>

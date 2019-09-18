@@ -1,0 +1,432 @@
+Tiempo = 0.0 s 
+INICIO
+-------------------------------------------------------------
+Tiempo = 1.02 s 
+ENTRADA: Comprador 7 entra en la cola del supermercado.
+-------------------------------------------------------------
+Tiempo = 1.062 s 
+DENTRO: Comprador 7 ha entrado al supermercado.
+RECUENTO DE CLIENTES ==> Ya han entrado 1 clientes!!!!
+-------------------------------------------------------------
+Tiempo = 1.063 s 
+COLA DE CARNICERIA: Comprador 7 entra en la cola de la carniceria.
+-------------------------------------------------------------
+Tiempo = 1.066 s 
+ENTRADA: Comprador 3 entra en la cola del supermercado.
+-------------------------------------------------------------
+Tiempo = 1.068 s 
+DENTRO: Comprador 3 ha entrado al supermercado.
+RECUENTO DE CLIENTES ==> Ya han entrado 2 clientes!!!!
+-------------------------------------------------------------
+Tiempo = 1.127 s 
+COLA DE CARNICERIA: Comprador 3 entra en la cola de la carniceria.
+-------------------------------------------------------------
+Tiempo = 1.127 s 
+ENTRADA: Comprador 2 entra en la cola del supermercado.
+-------------------------------------------------------------
+Tiempo = 1.128 s 
+DENTRO: Comprador 2 ha entrado al supermercado.
+RECUENTO DE CLIENTES ==> Ya han entrado 3 clientes!!!!
+-------------------------------------------------------------
+Tiempo = 1.128 s 
+COLA DE PESCADERIA: Comprador 2 entra en la cola de la pescaderia.
+-------------------------------------------------------------
+Tiempo = 1.129 s 
+ENTRADA: Comprador 0 entra en la cola del supermercado.
+-------------------------------------------------------------
+Tiempo = 1.129 s 
+PESCADERIA: Comprador 2 esta siendo atendido por PESCADERA
+-------------------------------------------------------------
+Tiempo = 1.13 s 
+DENTRO: Comprador 0 ha entrado al supermercado.
+RECUENTO DE CLIENTES ==> Ya han entrado 4 clientes!!!!
+-------------------------------------------------------------
+Tiempo = 1.13 s 
+ESTANTES: Comprador 0 entra en los estantes.
+-------------------------------------------------------------
+Tiempo = 1.13 s 
+ESTANTES: Comprador 0 esta en los estantes.
+-------------------------------------------------------------
+Tiempo = 1.13 s 
+ENTRADA: Comprador 14 entra en la cola del supermercado.
+-------------------------------------------------------------
+Tiempo = 1.131 s 
+DENTRO: Comprador 14 ha entrado al supermercado.
+RECUENTO DE CLIENTES ==> Ya han entrado 5 clientes!!!!
+-------------------------------------------------------------
+Tiempo = 1.131 s 
+COLA DE CARNICERIA: Comprador 14 entra en la cola de la carniceria.
+-------------------------------------------------------------
+Tiempo = 1.132 s 
+ENTRADA: Comprador 4 entra en la cola del supermercado.
+-------------------------------------------------------------
+Tiempo = 1.133 s 
+ENTRADA: Comprador 6 entra en la cola del supermercado.
+-------------------------------------------------------------
+Tiempo = 1.133 s 
+DENTRO: Comprador 6 ha entrado al supermercado.
+RECUENTO DE CLIENTES ==> Ya han entrado 7 clientes!!!!
+-------------------------------------------------------------
+Tiempo = 1.134 s 
+COLA DE CARNICERIA: Comprador 4 entra en la cola de la carniceria.
+-------------------------------------------------------------
+Tiempo = 1.134 s 
+ENTRADA: Comprador 26 entra en la cola del supermercado.
+-------------------------------------------------------------
+Tiempo = 1.134 s 
+ENTRADA: Comprador 42 entra en la cola del supermercado.
+-------------------------------------------------------------
+Tiempo = 1.135 s 
+DENTRO: Comprador 42 ha entrado al supermercado.
+RECUENTO DE CLIENTES ==> Ya han entrado 9 clientes!!!!
+-------------------------------------------------------------
+Tiempo = 1.135 s 
+ESTANTES: Comprador 6 entra en los estantes.
+-------------------------------------------------------------
+Tiempo = 1.135 s 
+ENTRADA: Comprador 11 entra en la cola del supermercado.
+-------------------------------------------------------------
+Tiempo = 1.136 s 
+ENTRADA: Comprador 10 entra en la cola del supermercado.
+-------------------------------------------------------------
+Tiempo = 1.136 s 
+ENTRADA: Comprador 20 entra en la cola del supermercado.
+-------------------------------------------------------------
+Tiempo = 1.136 s 
+ENTRADA: Comprador 19 entra en la cola del supermercado.
+-------------------------------------------------------------
+Tiempo = 1.137 s 
+ENTRADA: Comprador 15 entra en la cola del supermercado.
+-------------------------------------------------------------
+Tiempo = 1.137 s 
+ENTRADA: Comprador 12 entra en la cola del supermercado.
+-------------------------------------------------------------
+Tiempo = 1.138 s 
+ENTRADA: Comprador 28 entra en la cola del supermercado.
+-------------------------------------------------------------
+Tiempo = 1.138 s 
+ENTRADA: Comprador 30 entra en la cola del supermercado.
+-------------------------------------------------------------
+Tiempo = 1.138 s 
+ENTRADA: Comprador 27 entra en la cola del supermercado.
+-------------------------------------------------------------
+Tiempo = 1.138 s 
+ENTRADA: Comprador 24 entra en la cola del supermercado.
+-------------------------------------------------------------
+Tiempo = 1.139 s 
+DENTRO: Comprador 24 ha entrado al supermercado.
+RECUENTO DE CLIENTES ==> Ya han entrado 19 clientes!!!!
+-------------------------------------------------------------
+Tiempo = 1.139 s 
+ESTANTES: Comprador 26 entra en los estantes.
+-------------------------------------------------------------
+Tiempo = 1.139 s 
+ESTANTES: Comprador 26 esta en los estantes.
+-------------------------------------------------------------
+Tiempo = 1.14 s 
+ENTRADA: Comprador 23 entra en la cola del supermercado.
+-------------------------------------------------------------
+Tiempo = 1.154 s 
+DENTRO: Comprador 23 ha entrado al supermercado.
+RECUENTO DE CLIENTES ==> Ya han entrado 20 clientes!!!!
+-------------------------------------------------------------
+Tiempo = 1.155 s 
+COLA DE CARNICERIA: Comprador 42 entra en la cola de la carniceria.
+-------------------------------------------------------------
+Tiempo = 1.179 s 
+DENTRO: Comprador 27 ha entrado al supermercado.
+RECUENTO DE CLIENTES ==> Ya han entrado 20 clientes!!!!
+-------------------------------------------------------------
+Tiempo = 1.179 s 
+COLA DE PESCADERIA: Comprador 11 entra en la cola de la pescaderia.
+-------------------------------------------------------------
+Tiempo = 1.18 s 
+DENTRO: Comprador 30 ha entrado al supermercado.
+RECUENTO DE CLIENTES ==> Ya han entrado 20 clientes!!!!
+-------------------------------------------------------------
+Tiempo = 1.181 s 
+COLA DE CARNICERIA: Comprador 10 entra en la cola de la carniceria.
+-------------------------------------------------------------
+Tiempo = 1.181 s 
+DENTRO: Comprador 28 ha entrado al supermercado.
+RECUENTO DE CLIENTES ==> Ya han entrado 20 clientes!!!!
+-------------------------------------------------------------
+Tiempo = 1.182 s 
+COLA DE PESCADERIA: Comprador 20 entra en la cola de la pescaderia.
+-------------------------------------------------------------
+Tiempo = 1.182 s 
+DENTRO: Comprador 12 ha entrado al supermercado.
+RECUENTO DE CLIENTES ==> Ya han entrado 20 clientes!!!!
+-------------------------------------------------------------
+Tiempo = 1.182 s 
+ESTANTES: Comprador 19 entra en los estantes.
+-------------------------------------------------------------
+Tiempo = 1.183 s 
+ESTANTES: Comprador 19 esta en los estantes.
+-------------------------------------------------------------
+Tiempo = 1.183 s 
+DENTRO: Comprador 15 ha entrado al supermercado.
+RECUENTO DE CLIENTES ==> Ya han entrado 20 clientes!!!!
+-------------------------------------------------------------
+Tiempo = 1.184 s 
+COLA DE PESCADERIA: Comprador 15 entra en la cola de la pescaderia.
+-------------------------------------------------------------
+Tiempo = 1.19 s 
+DENTRO: Comprador 19 ha entrado al supermercado.
+RECUENTO DE CLIENTES ==> Ya han entrado 20 clientes!!!!
+-------------------------------------------------------------
+Tiempo = 1.19 s 
+COLA DE PESCADERIA: Comprador 12 entra en la cola de la pescaderia.
+-------------------------------------------------------------
+Tiempo = 1.19 s 
+DENTRO: Comprador 20 ha entrado al supermercado.
+RECUENTO DE CLIENTES ==> Ya han entrado 20 clientes!!!!
+-------------------------------------------------------------
+Tiempo = 1.191 s 
+COLA DE PESCADERIA: Comprador 28 entra en la cola de la pescaderia.
+-------------------------------------------------------------
+Tiempo = 1.191 s 
+DENTRO: Comprador 10 ha entrado al supermercado.
+RECUENTO DE CLIENTES ==> Ya han entrado 20 clientes!!!!
+-------------------------------------------------------------
+Tiempo = 1.192 s 
+COLA DE CARNICERIA: Comprador 30 entra en la cola de la carniceria.
+-------------------------------------------------------------
+Tiempo = 1.192 s 
+DENTRO: Comprador 11 ha entrado al supermercado.
+RECUENTO DE CLIENTES ==> Ya han entrado 20 clientes!!!!
+-------------------------------------------------------------
+Tiempo = 1.192 s 
+COLA DE PESCADERIA: Comprador 27 entra en la cola de la pescaderia.
+-------------------------------------------------------------
+Tiempo = 1.193 s 
+ESTANTES: Comprador 6 esta en los estantes.
+-------------------------------------------------------------
+Tiempo = 1.193 s 
+DENTRO: Comprador 26 ha entrado al supermercado.
+RECUENTO DE CLIENTES ==> Ya han entrado 20 clientes!!!!
+-------------------------------------------------------------
+Tiempo = 1.193 s 
+COLA DE CARNICERIA: Comprador 24 entra en la cola de la carniceria.
+-------------------------------------------------------------
+Tiempo = 1.194 s 
+DENTRO: Comprador 4 ha entrado al supermercado.
+RECUENTO DE CLIENTES ==> Ya han entrado 20 clientes!!!!
+-------------------------------------------------------------
+Tiempo = 1.194 s 
+---------------------- Mercado Lleno ----------------------
+-------------------------------------------------------------
+Tiempo = 1.194 s 
+COLA DE CARNICERIA: Comprador 23 entra en la cola de la carniceria.
+-------------------------------------------------------------
+Tiempo = 1.309 s 
+CARNICERIA: Comprador 7 esta siendo atendido por CARNICERA
+-------------------------------------------------------------
+Tiempo = 3.263 s 
+COLA DE CAJAS: Comprador 19 entra en la cola de las cajas
+-------------------------------------------------------------
+Tiempo = 3.265 s 
+COLA DE CAJAS: Comprador 19 entra en cajas.
+-------------------------------------------------------------
+Tiempo = 3.266 s 
+CAJAS: Comprador 19 está siendo atendido por CAJERA 1
+-------------------------------------------------------------
+Tiempo = 3.475 s 
+TIEMPO ==> CARNICERA ha estado ocupado durante 2.167 segundos en total.
+-------------------------------------------------------------
+Tiempo = 3.475 s 
+COLA DE CAJAS: Comprador 7 entra en la cola de las cajas
+-------------------------------------------------------------
+Tiempo = 3.476 s 
+CARNICERIA: Comprador 3 esta siendo atendido por CARNICERA
+-------------------------------------------------------------
+Tiempo = 3.477 s 
+COLA DE CAJAS: Comprador 7 entra en cajas.
+-------------------------------------------------------------
+Tiempo = 3.478 s 
+CAJAS: Comprador 7 está siendo atendido por CAJERA 2
+-------------------------------------------------------------
+Tiempo = 3.7 s 
+TIEMPO ==> PESCADERA ha estado ocupado durante 2.623 segundos en total.
+-------------------------------------------------------------
+Tiempo = 3.721 s 
+COLA DE CAJAS: Comprador 2 entra en la cola de las cajas
+-------------------------------------------------------------
+Tiempo = 3.722 s 
+PESCADERIA: Comprador 11 esta siendo atendido por PESCADERA
+-------------------------------------------------------------
+Tiempo = 4.277 s 
+ENTRADA: Comprador 22 entra en la cola del supermercado.
+-------------------------------------------------------------
+Tiempo = 4.278 s 
+ENTRADA: Comprador 18 entra en la cola del supermercado.
+-------------------------------------------------------------
+Tiempo = 4.279 s 
+ENTRADA: Comprador 16 entra en la cola del supermercado.
+-------------------------------------------------------------
+Tiempo = 4.279 s 
+ENTRADA: Comprador 32 entra en la cola del supermercado.
+-------------------------------------------------------------
+Tiempo = 4.279 s 
+ENTRADA: Comprador 34 entra en la cola del supermercado.
+-------------------------------------------------------------
+Tiempo = 4.279 s 
+ENTRADA: Comprador 39 entra en la cola del supermercado.
+-------------------------------------------------------------
+Tiempo = 4.28 s 
+ENTRADA: Comprador 31 entra en la cola del supermercado.
+-------------------------------------------------------------
+Tiempo = 4.28 s 
+ENTRADA: Comprador 36 entra en la cola del supermercado.
+-------------------------------------------------------------
+Tiempo = 4.28 s 
+DENTRO: Comprador 22 ha entrado al supermercado.
+RECUENTO DE CLIENTES ==> Ya han entrado 28 clientes!!!!
+-------------------------------------------------------------
+Tiempo = 4.281 s 
+COLA DE PESCADERIA: Comprador 22 entra en la cola de la pescaderia.
+-------------------------------------------------------------
+Tiempo = 4.281 s 
+ENTRADA: Comprador 35 entra en la cola del supermercado.
+-------------------------------------------------------------
+Tiempo = 4.281 s 
+CARNICERIA: Comprador 14 esta siendo atendido por CARNICERA
+-------------------------------------------------------------
+Tiempo = 4.282 s 
+TIEMPO ==> CARNICERA ha estado ocupado durante 2.167 segundos en total.
+-------------------------------------------------------------
+Tiempo = 4.282 s 
+ENTRADA: Comprador 44 entra en la cola del supermercado.
+-------------------------------------------------------------
+Tiempo = 4.282 s 
+DENTRO: Comprador 35 ha entrado al supermercado.
+RECUENTO DE CLIENTES ==> Ya han entrado 30 clientes!!!!
+-------------------------------------------------------------
+Tiempo = 4.283 s 
+ESTANTES: Comprador 18 entra en los estantes.
+-------------------------------------------------------------
+Tiempo = 4.283 s 
+ESTANTES: Comprador 18 esta en los estantes.
+-------------------------------------------------------------
+Tiempo = 4.283 s 
+DENTRO: Comprador 44 ha entrado al supermercado.
+RECUENTO DE CLIENTES ==> Ya han entrado 30 clientes!!!!
+-------------------------------------------------------------
+Tiempo = 4.284 s 
+COLA DE CARNICERIA: Comprador 16 entra en la cola de la carniceria.
+-------------------------------------------------------------
+Tiempo = 4.284 s 
+ENTRADA: Comprador 8 entra en la cola del supermercado.
+-------------------------------------------------------------
+Tiempo = 4.284 s 
+DENTRO: Comprador 8 ha entrado al supermercado.
+RECUENTO DE CLIENTES ==> Ya han entrado 31 clientes!!!!
+-------------------------------------------------------------
+Tiempo = 4.285 s 
+COLA DE CAJAS: Comprador 26 entra en la cola de las cajas
+-------------------------------------------------------------
+Tiempo = 4.285 s 
+COLA DE CAJAS: Comprador 6 entra en la cola de las cajas
+-------------------------------------------------------------
+Tiempo = 4.285 s 
+TIEMPO ==> CARNICERA ha estado ocupado durante 2.973 segundos en total.
+-------------------------------------------------------------
+Tiempo = 4.285 s 
+COLA DE CAJAS: Comprador 3 entra en la cola de las cajas
+-------------------------------------------------------------
+Tiempo = 4.286 s 
+TIEMPO ==> CAJERAS han estado ocupadas durante 0.0 segundos en total.
+-------------------------------------------------------------
+Tiempo = 4.286 s 
+SALIDA: Comprador 19 abandona el super
+-------------------------------------------------------------
+Tiempo = 4.286 s 
+RECUENTO DE CLIENTES ==> Ya se ha atendido a 1 clientes!!!!
+-------------------------------------------------------------
+Tiempo = 4.287 s 
+El cliente Comprador 31 paso 4.271 segundos comprando.
+La media de tiempo en segundos es de: 4.271
+Paso 0.0 dentro del mercado.
+La media de tiempo dentro del mercado es de: 0.01
+-------------------------------------------------------------
+Tiempo = 4.287 s 
+TIEMPO ==> CAJERAS han estado ocupadas durante 0.0 segundos en total.
+-------------------------------------------------------------
+Tiempo = 4.288 s 
+SALIDA: Comprador 7 abandona el super
+-------------------------------------------------------------
+Tiempo = 4.288 s 
+RECUENTO DE CLIENTES ==> Ya se ha atendido a 2 clientes!!!!
+-------------------------------------------------------------
+Tiempo = 4.288 s 
+El cliente Comprador 3 paso 4.28 segundos comprando.
+La media de tiempo en segundos es de: 4.2755
+Paso 3.0 dentro del mercado.
+La media de tiempo dentro del mercado es de: 1.614
+-------------------------------------------------------------
+Tiempo = 4.288 s 
+COLA DE CAJAS: Comprador 0 entra en la cola de las cajas
+-------------------------------------------------------------
+Tiempo = 4.289 s 
+COLA DE CAJAS: Comprador 0 entra en cajas.
+-------------------------------------------------------------
+Tiempo = 4.289 s 
+DENTRO: Comprador 18 ha entrado al supermercado.
+RECUENTO DE CLIENTES ==> Ya han entrado 211 clientes!!!!
+-------------------------------------------------------------
+Tiempo = 4.289 s 
+TIEMPO ==> PESCADERA ha estado ocupado durante 2.623 segundos en total.
+-------------------------------------------------------------
+Tiempo = 4.29 s 
+COLA DE CAJAS: Comprador 11 entra en la cola de las cajas
+-------------------------------------------------------------
+Tiempo = 4.29 s 
+COLA DE CAJAS: Comprador 11 entra en cajas.
+-------------------------------------------------------------
+Tiempo = 4.29 s 
+DENTRO: Comprador 36 ha entrado al supermercado.
+RECUENTO DE CLIENTES ==> Ya han entrado 250 clientes!!!!
+-------------------------------------------------------------
+Tiempo = 4.291 s 
+DENTRO: Comprador 31 ha entrado al supermercado.
+RECUENTO DE CLIENTES ==> Ya han entrado 250 clientes!!!!
+-------------------------------------------------------------
+Tiempo = 4.292 s 
+DENTRO: Comprador 39 ha entrado al supermercado.
+RECUENTO DE CLIENTES ==> Ya han entrado 250 clientes!!!!
+-------------------------------------------------------------
+Tiempo = 4.292 s 
+DENTRO: Comprador 34 ha entrado al supermercado.
+RECUENTO DE CLIENTES ==> Ya han entrado 250 clientes!!!!
+-------------------------------------------------------------
+Tiempo = 4.293 s 
+DENTRO: Comprador 32 ha entrado al supermercado.
+RECUENTO DE CLIENTES ==> Ya han entrado 250 clientes!!!!
+-------------------------------------------------------------
+Tiempo = 4.294 s 
+DENTRO: Comprador 16 ha entrado al supermercado.
+RECUENTO DE CLIENTES ==> Ya han entrado 250 clientes!!!!
+-------------------------------------------------------------
+Tiempo = 4.295 s 
+COLA DE CAJAS: Comprador 6 entra en cajas.
+-------------------------------------------------------------
+Tiempo = 4.295 s 
+COLA DE CAJAS: Comprador 14 entra en la cola de las cajas
+-------------------------------------------------------------
+Tiempo = 4.428 s 
+COLA DE CAJAS: Comprador 18 entra en la cola de las cajas
+-------------------------------------------------------------
+Tiempo = 4.429 s 
+COLA DE CAJAS: Comprador 14 entra en cajas.
+-------------------------------------------------------------
+Tiempo = 4.731 s 
+Se expulso a los clientes.
+-------------------------------------------------------------
+Tiempo = 4.732 s 
+==
+==
+==
+==
+==
+Se forzo el final de la ejecucion
+-------------------------------------------------------------
